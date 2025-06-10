@@ -1,6 +1,6 @@
-# ./ (package.json)
+# DashboardQ (package.json)
 
-A Vue with Quasar project
+A Quasar Project
 
 ## Install the dependencies
 ```bash

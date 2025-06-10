@@ -1,8 +1,8 @@
 {
   "name": "package.json",
   "version": "0.0.1",
-  "description": "A Vue with Quasar project",
-  "productName": "./",
+  "description": "A Quasar Project",
+  "productName": "DashboardQ",
   "author": "Jason <jeasonraphael11@gmail.com>",
   "type": "module",
   "private": true,
