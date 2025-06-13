@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar-nav-icon></v-app-bar-nav-icon>
+  <v-app-bar-nav-icon @click="$emit('toggle-drawer')"></v-app-bar-nav-icon>
 
   <v-app-bar-title>Dashboard</v-app-bar-title>
   <v-btn icon="mdi-magnify" class="mr-3"></v-btn>
@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 import ThemeToggle from "./ThemeToggle.vue";
-const model = ref(false);
 </script>
 <style scoped></style>
