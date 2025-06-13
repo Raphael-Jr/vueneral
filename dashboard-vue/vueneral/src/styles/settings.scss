@@ -8,3 +8,11 @@
 // @use 'vuetify/settings' with (
 //   $color-pack: false
 // );
+
+#dataContainer{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    max-width: 75%;
+}

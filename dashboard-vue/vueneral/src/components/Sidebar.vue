@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer v-model="drawer">
+  <v-navigation-drawer v-model="drawer" id="navDrawer">
     <br />
     <v-list-item
       prepend-avatar="https://randomuser.me/api/portraits/men/78.jpg"
@@ -36,3 +36,9 @@ const drawer = computed({
   set: (val) => emit("update:modelValue", val),
 });
 </script>
+
+<style>
+#navDrawer {
+  max-width: 25%;
+}
+</style>
