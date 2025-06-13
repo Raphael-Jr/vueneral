@@ -40,10 +40,10 @@ function toggleTheme() {
   font-size: 18px;
 }
 .theme-switch .v-switch__thumb {
-  width: 32px !important; /* Change to your desired size */
-  height: 32px !important;
-  min-width: 32px !important;
-  min-height: 32px !important;
+  width: 30px !important; /* Change to your desired size */
+  height: 30px !important;
+  min-width: 30px !important;
+  min-height: 30px !important;
   font-size: 24px !important; /* Ensures icon scales too */
   display: flex;
   align-items: center;

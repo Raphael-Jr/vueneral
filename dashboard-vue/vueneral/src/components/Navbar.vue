@@ -2,7 +2,7 @@
   <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
   <v-app-bar-title>Dashboard</v-app-bar-title>
-  <v-btn icon="mdi-magnify"></v-btn>
+  <v-btn icon="mdi-magnify" class="mr-3"></v-btn>
 
   <ThemeToggle />
 
